@@ -1,0 +1,124 @@
+
+C:\SU\CSE687\Code\Parser\DERIVE~2
+>parser ../configureParser.h ../configureParser.cpp 
+
+  Testing Parser class
+ ======================
+
+  Processing file ../configureParser.h
+  ------------------------------------
+
+  Preproc Stmt:   # ifndef CONFIGUREPARSER_H
+
+  Preproc Stmt:   # define CONFIGUREPARSER_H
+
+  Preproc Stmt:   # include "Parser.h"
+
+  Preproc Stmt:   # include "SemiExpression.h"
+
+  Preproc Stmt:   # include "Tokenizer.h"
+
+  Preproc Stmt:   # include "ActionsAndRules.h"
+
+  FuncDef Stmt:   inline std :: queue < std :: string >* ConfigParseToQueue :: GetQueue ( ) {
+
+  Pretty Stmt:    inline std :: queue < std :: string >* ConfigParseToQueue :: GetQueue ( ) 
+
+  Preproc Stmt:   # endif
+
+
+  Processing file for Queued Outputs ../configureParser.h
+  -------------------------------------------------------
+
+
+  Preproc Stmt:   # ifndef CONFIGUREPARSER_H
+  Preproc Stmt:   # define CONFIGUREPARSER_H
+  Preproc Stmt:   # include "Parser.h"
+  Preproc Stmt:   # include "SemiExpression.h"
+  Preproc Stmt:   # include "Tokenizer.h"
+  Preproc Stmt:   # include "ActionsAndRules.h"
+  Pretty Stmt:      inline std :: queue < std :: string >* ConfigParseToQueue :: GetQueue ( ) 
+  Preproc Stmt:   # endif
+
+
+  Processing file ../configureParser.cpp
+  --------------------------------------
+
+  Preproc Stmt:   # include "Parser.h"
+
+  Preproc Stmt:   # include "SemiExpression.h"
+
+  Preproc Stmt:   # include "Tokenizer.h"
+
+  Preproc Stmt:   # include "ActionsAndRules.h"
+
+  Preproc Stmt:   # include "ConfigureParser.h"
+
+  FuncDef Stmt:   ConfigParseToConsole :: ConfigParseToConsole ( ) : pToker ( 0 ) , pSemi ( 0 ) , pParser ( 0 ) , pPreprocStatement ( 0 ) , pPrintPreproc ( 0 ) , pFunctionDefinition ( 0 ) , pPrintFunction ( 0 ) , pPrettyPrintFunction ( 0 ) {
+
+  Pretty Stmt:    ConfigParseToConsole :: ConfigParseToConsole ( ) 
+
+  FuncDef Stmt:   ConfigParseToConsole ::~ ConfigParseToConsole ( ) {
+
+  Pretty Stmt:    ConfigParseToConsole ::~ ConfigParseToConsole ( ) 
+
+  FuncDef Stmt:   bool ConfigParseToConsole :: Attach ( const std :: string & name , bool isFile ) {
+
+  Pretty Stmt:    bool ConfigParseToConsole :: Attach ( const std :: string & name , bool isFile ) 
+
+  FuncDef Stmt:   Parser * ConfigParseToConsole :: Build ( ) {
+
+  Pretty Stmt:    Parser * ConfigParseToConsole :: Build ( ) 
+
+  FuncDef Stmt:   ConfigParseToQueue :: ConfigParseToQueue ( ) : pToker ( 0 ) , pSemi ( 0 ) , pParser ( 0 ) , pPreprocStatement ( 0 ) , pPreprocToQ ( 0 ) , pFunctionDefinition ( 0 ) , pPrettyPrintToQ ( 0 ) {
+
+  Pretty Stmt:    ConfigParseToQueue :: ConfigParseToQueue ( ) 
+
+  FuncDef Stmt:   ConfigParseToQueue ::~ ConfigParseToQueue ( ) {
+
+  Pretty Stmt:    ConfigParseToQueue ::~ ConfigParseToQueue ( ) 
+
+  FuncDef Stmt:   bool ConfigParseToQueue :: Attach ( const std :: string & name , bool isFile ) {
+
+  Pretty Stmt:    bool ConfigParseToQueue :: Attach ( const std :: string & name , bool isFile ) 
+
+  FuncDef Stmt:   Parser * ConfigParseToQueue :: Build ( ) {
+
+  Pretty Stmt:    Parser * ConfigParseToQueue :: Build ( ) 
+
+  Preproc Stmt:   # ifdef TEST_CONFIGUREPARSER
+
+  Preproc Stmt:   # include < queue >
+
+  Preproc Stmt:   # include < string >
+
+  FuncDef Stmt:   int main ( int argc , char * argv [ ] ) {
+
+  Pretty Stmt:    int main ( int argc , char * argv [ ] ) 
+
+  Preproc Stmt:   # endif
+
+
+  Processing file for Queued Outputs ../configureParser.cpp
+  ---------------------------------------------------------
+
+
+  Preproc Stmt:   # include "Parser.h"
+  Preproc Stmt:   # include "SemiExpression.h"
+  Preproc Stmt:   # include "Tokenizer.h"
+  Preproc Stmt:   # include "ActionsAndRules.h"
+  Preproc Stmt:   # include "ConfigureParser.h"
+  Pretty Stmt:      ConfigParseToConsole :: ConfigParseToConsole ( ) 
+  Pretty Stmt:      ConfigParseToConsole ::~ ConfigParseToConsole ( ) 
+  Pretty Stmt:      bool ConfigParseToConsole :: Attach ( const std :: string & name , bool isFile ) 
+  Pretty Stmt:      Parser * ConfigParseToConsole :: Build ( ) 
+  Pretty Stmt:      ConfigParseToQueue :: ConfigParseToQueue ( ) 
+  Pretty Stmt:      ConfigParseToQueue ::~ ConfigParseToQueue ( ) 
+  Pretty Stmt:      bool ConfigParseToQueue :: Attach ( const std :: string & name , bool isFile ) 
+  Pretty Stmt:      Parser * ConfigParseToQueue :: Build ( ) 
+  Preproc Stmt:   # ifdef TEST_CONFIGUREPARSER
+  Preproc Stmt:   # include < queue >
+  Preproc Stmt:   # include < string >
+  Pretty Stmt:      int main ( int argc , char * argv [ ] ) 
+  Preproc Stmt:   # endif
+

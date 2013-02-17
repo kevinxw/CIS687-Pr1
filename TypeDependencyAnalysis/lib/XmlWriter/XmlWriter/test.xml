@@ -1,0 +1,1 @@
+<?xml version="1.0"?><!-- top level comment --><root att1="val1" att2="val2"><!-- comment in root's body --><child1 c1name="c1value" /><!-- another root's body comment -->root's body</root>

@@ -1,0 +1,25 @@
+
+Type Dependency Analysis  v0.1
+ - Kevin Wang (kevixw@gmail.com)
+   Spring 2013 / Syracuse University / CIS 687 Pr#1
+   
+## Overview =======================================
+This is a program which analyze the dependency relationship among code files.
+
+## Commands ======================================
+
+./Debug/Exec.exe [\R] "Directory path" [file pattern: "*.cpp", "*.h" etc.] [file pattern 2] ...
+
+By specificing \R, we will search sub-directories under the path specificed.
+
+If not specific file pattern, *.h will be used by default
+
+## Files changed =====================================
+
+ADD ActionsAndRulesExtended.h / .cpp (an extension of existing rules & actions.  I want to keep ActionsAndRules.h unchanged)
+ADD Main.cpp (the entry point of this program)
+ADD StringHelper.h / .cpp (a helper class used to format string)
+
+CHANGE ConfigurationParser.h / .cpp (create & pass graph instance)
+CHANGE Graph.h / .cpp (extend the graph class, add functor, add search ability by specific vertex value or edge value)
+CHANGE ActionAndRules.h / .cpp (re-write some actions, changed a little bit)
